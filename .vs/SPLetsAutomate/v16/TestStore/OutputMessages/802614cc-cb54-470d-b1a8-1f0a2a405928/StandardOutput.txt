@@ -1,0 +1,52 @@
+2021-11-11 13:00:52.8265  INFO Starting test: SPLetsAutomate.Tests.Invalid_User_Data_Error
+2021-11-11 13:00:52.9823 TRACE > Set up AtataContext
+2021-11-11 13:00:52.9937 TRACE - Set: BaseUrl=https://demoqa.com/text-box
+2021-11-11 13:00:53.0005 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-11-11 13:00:53.0017 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-11-11 13:00:53.0054 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-11-11 13:00:53.0277 TRACE - Set: Artifacts=C:\Users\ebiezuz\source\repos\SPLetsAutomate\SPLetsAutomate\bin\Debug\netcoreapp3.1\artifacts\2021-11-11 13_00_52\Tests\Invalid_User_Data_Error
+2021-11-11 13:00:53.0488 TRACE - Set: DriverService=ChromeDriverService on port 61657
+2021-11-11 13:00:57.2361 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-11-11 13:00:57.2417 TRACE < Set up AtataContext (4.257s)
+2021-11-11 13:00:57.4861  INFO Go to "Test" page
+2021-11-11 13:00:57.7466  INFO Go to URL "https://demoqa.com/text-box"
+2021-11-11 13:01:03.6123  INFO > Set "thisisnotanemail" to "Email" email input
+2021-11-11 13:01:03.6268 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Email" email input
+2021-11-11 13:01:03.6540 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Email" email input
+2021-11-11 13:01:03.8011 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'userEmail']/descendant-or-self::input[@type='email']" in ChromeDriver
+2021-11-11 13:01:05.9699 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'userEmail']/descendant-or-self::input[@type='email']" in ChromeDriver (2.166s) >> Element { Id=159d2199-7c68-49cd-94ed-cdf61f006bd5 }
+2021-11-11 13:01:05.9814 TRACE - - - > Clear element { Id=159d2199-7c68-49cd-94ed-cdf61f006bd5 }
+2021-11-11 13:01:06.0990 TRACE - - - < Clear element { Id=159d2199-7c68-49cd-94ed-cdf61f006bd5 } (0.117s)
+2021-11-11 13:01:06.1036 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Email" email input (2.449s)
+2021-11-11 13:01:06.1083 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Email" email input
+2021-11-11 13:01:06.1145 TRACE - - - > Send keys "thisisnotanemail" to element { Id=159d2199-7c68-49cd-94ed-cdf61f006bd5 }
+2021-11-11 13:01:06.4381 TRACE - - - < Send keys "thisisnotanemail" to element { Id=159d2199-7c68-49cd-94ed-cdf61f006bd5 } (0.323s)
+2021-11-11 13:01:06.4414 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Email" email input (0.332s)
+2021-11-11 13:01:06.4444 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Email" email input (2.817s)
+2021-11-11 13:01:06.4466  INFO < Set "thisisnotanemail" to "Email" email input (2.834s)
+2021-11-11 13:01:06.4487  INFO Scroll down
+2021-11-11 13:01:06.4532 TRACE > Execute script "var height = document.body.scrollHeight;document.body.scrollTop = height;document.documentElement..."
+2021-11-11 13:01:06.5166 TRACE < Execute script "var height = document.body.scrollHeight;document.body.scrollTop = height;document.documentElement..." (0.063s) >> null
+2021-11-11 13:01:06.5193  INFO > Click "Submit" button
+2021-11-11 13:01:06.5219 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Submit" button
+2021-11-11 13:01:06.5334 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'submit']/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver
+2021-11-11 13:01:06.6651 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'submit']/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver (0.131s) >> Element { Id=e213d1f7-2e1d-4731-8e92-11caa1bdab38 }
+2021-11-11 13:01:06.6670 TRACE - - > Click element { Id=e213d1f7-2e1d-4731-8e92-11caa1bdab38 }
+2021-11-11 13:01:06.7877 TRACE - - < Click element { Id=e213d1f7-2e1d-4731-8e92-11caa1bdab38 } (0.120s)
+2021-11-11 13:01:06.7885 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Submit" button (0.266s)
+2021-11-11 13:01:06.7894  INFO < Click "Submit" button (0.270s)
+2021-11-11 13:01:06.7971 TRACE > Execute trigger WaitAttribute { Seconds=5 } on AfterClick against "Submit" button
+2021-11-11 13:01:11.7999 TRACE < Execute trigger WaitAttribute { Seconds=5 } on AfterClick against "Submit" button (5.002s)
+2021-11-11 13:01:11.8323  INFO Go to "Output" page
+2021-11-11 13:01:11.8695  INFO Scroll up
+2021-11-11 13:01:11.8704 TRACE > Execute script "document.body.scrollTop = 0;document.documentElement.scrollTop = 0;"
+2021-11-11 13:01:11.9173 TRACE < Execute script "document.body.scrollTop = 0;document.documentElement.scrollTop = 0;" (0.046s) >> null
+2021-11-11 13:01:11.9210  INFO Take screenshot #01
+2021-11-11 13:01:12.5500  INFO > Assert: "Output Table" element should not be visible
+2021-11-11 13:01:12.7713  INFO < Assert: "Output Table" element should not be visible (0.221s)
+2021-11-11 13:01:25.2286  INFO > Clean up AtataContext
+2021-11-11 13:01:25.2310 TRACE - > Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent
+2021-11-11 13:01:25.2334 TRACE - < Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent (0.002s)
+2021-11-11 13:01:26.6469  INFO < Clean up AtataContext (1.418s)
+2021-11-11 13:01:26.6500  INFO Finished test (34.014s)
+2021-11-11 13:01:26.6509  INFO Pure test execution time: 27.983s

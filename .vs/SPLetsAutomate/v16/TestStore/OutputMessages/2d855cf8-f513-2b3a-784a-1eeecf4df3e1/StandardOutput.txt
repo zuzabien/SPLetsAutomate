@@ -1,0 +1,101 @@
+2021-11-11 13:01:43.2429  INFO Starting test: SPLetsAutomate.Tests.Valid_User_Data_Success("John Smith","john.smith@mailinator.com","Street Smith 3, London, UK","Street Smith 6, London, UK")
+2021-11-11 13:01:43.2436 TRACE > Set up AtataContext
+2021-11-11 13:01:43.2442 TRACE - Set: BaseUrl=https://demoqa.com/text-box
+2021-11-11 13:01:43.2447 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-11-11 13:01:43.2452 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-11-11 13:01:43.2456 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-11-11 13:01:43.2470 TRACE - Set: Artifacts=C:\Users\ebiezuz\source\repos\SPLetsAutomate\SPLetsAutomate\bin\Debug\netcoreapp3.1\artifacts\2021-11-11 13_00_52\Tests\Valid_User_Data_Success(John Smith,john.smith@mailinator.com,Street Smith 3, London, UK,Street Smith 6, London, UK)
+2021-11-11 13:01:43.2485 TRACE - Set: DriverService=ChromeDriverService on port 61794
+2021-11-11 13:01:46.0499 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-11-11 13:01:46.0507 TRACE < Set up AtataContext (2.806s)
+2021-11-11 13:01:46.0518  INFO Go to "Test" page
+2021-11-11 13:01:46.0706  INFO Go to URL "https://demoqa.com/text-box"
+2021-11-11 13:01:50.1602  INFO > Set "John Smith" to "Full Name" text input
+2021-11-11 13:01:50.1616 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Full Name" text input
+2021-11-11 13:01:50.1631 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Full Name" text input
+2021-11-11 13:01:50.1663 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'userName']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-11-11 13:01:50.2499 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'userName']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.083s) >> Element { Id=bc36b232-9de1-4c98-88a9-e5aa82b17099 }
+2021-11-11 13:01:50.2509 TRACE - - - > Clear element { Id=bc36b232-9de1-4c98-88a9-e5aa82b17099 }
+2021-11-11 13:01:50.3241 TRACE - - - < Clear element { Id=bc36b232-9de1-4c98-88a9-e5aa82b17099 } (0.073s)
+2021-11-11 13:01:50.3248 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Full Name" text input (0.161s)
+2021-11-11 13:01:50.3256 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Full Name" text input
+2021-11-11 13:01:50.3270 TRACE - - - > Send keys "John Smith" to element { Id=bc36b232-9de1-4c98-88a9-e5aa82b17099 }
+2021-11-11 13:01:50.6396 TRACE - - - < Send keys "John Smith" to element { Id=bc36b232-9de1-4c98-88a9-e5aa82b17099 } (0.312s)
+2021-11-11 13:01:50.6404 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Full Name" text input (0.314s)
+2021-11-11 13:01:50.6409 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Full Name" text input (0.479s)
+2021-11-11 13:01:50.6415  INFO < Set "John Smith" to "Full Name" text input (0.481s)
+2021-11-11 13:01:50.6422  INFO > Set "john.smith@mailinator.com" to "Email" email input
+2021-11-11 13:01:50.6430 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Email" email input
+2021-11-11 13:01:50.6445 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Email" email input
+2021-11-11 13:01:50.6463 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'userEmail']/descendant-or-self::input[@type='email']" in ChromeDriver
+2021-11-11 13:01:51.1707 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'userEmail']/descendant-or-self::input[@type='email']" in ChromeDriver (0.524s) >> Element { Id=1d9460df-3f23-4fbb-b219-c24b1f5d681f }
+2021-11-11 13:01:51.1716 TRACE - - - > Clear element { Id=1d9460df-3f23-4fbb-b219-c24b1f5d681f }
+2021-11-11 13:01:51.2662 TRACE - - - < Clear element { Id=1d9460df-3f23-4fbb-b219-c24b1f5d681f } (0.094s)
+2021-11-11 13:01:51.2669 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Email" email input (0.622s)
+2021-11-11 13:01:51.2680 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Email" email input
+2021-11-11 13:01:51.2690 TRACE - - - > Send keys "john.smith@mailinator.com" to element { Id=1d9460df-3f23-4fbb-b219-c24b1f5d681f }
+2021-11-11 13:01:51.4829 TRACE - - - < Send keys "john.smith@mailinator.com" to element { Id=1d9460df-3f23-4fbb-b219-c24b1f5d681f } (0.213s)
+2021-11-11 13:01:51.4836 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Email" email input (0.215s)
+2021-11-11 13:01:51.4844 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Email" email input (0.841s)
+2021-11-11 13:01:51.4849  INFO < Set "john.smith@mailinator.com" to "Email" email input (0.842s)
+2021-11-11 13:01:51.4856  INFO > Set "Street Smith 3, London, UK" to "Current Address" text area
+2021-11-11 13:01:51.4864 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Current Address" text area
+2021-11-11 13:01:51.4875 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Current Address" text area
+2021-11-11 13:01:51.4893 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'currentAddress']/descendant-or-self::textarea" in ChromeDriver
+2021-11-11 13:01:51.6140 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'currentAddress']/descendant-or-self::textarea" in ChromeDriver (0.124s) >> Element { Id=7115b78d-e189-4a5a-9417-a060c6ca75e5 }
+2021-11-11 13:01:51.6152 TRACE - - - > Clear element { Id=7115b78d-e189-4a5a-9417-a060c6ca75e5 }
+2021-11-11 13:01:51.7284 TRACE - - - < Clear element { Id=7115b78d-e189-4a5a-9417-a060c6ca75e5 } (0.113s)
+2021-11-11 13:01:51.7291 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Current Address" text area (0.241s)
+2021-11-11 13:01:51.7297 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Current Address" text area
+2021-11-11 13:01:51.7303 TRACE - - - > Send keys "Street Smith 3, London, UK" to element { Id=7115b78d-e189-4a5a-9417-a060c6ca75e5 }
+2021-11-11 13:01:52.0111 TRACE - - - < Send keys "Street Smith 3, London, UK" to element { Id=7115b78d-e189-4a5a-9417-a060c6ca75e5 } (0.280s)
+2021-11-11 13:01:52.0119 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Current Address" text area (0.282s)
+2021-11-11 13:01:52.0125 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Current Address" text area (0.526s)
+2021-11-11 13:01:52.0130  INFO < Set "Street Smith 3, London, UK" to "Current Address" text area (0.527s)
+2021-11-11 13:01:52.0136  INFO > Set "Street Smith 6, London, UK" to "Permanent Address" text area
+2021-11-11 13:01:52.0143 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Permanent Address" text area
+2021-11-11 13:01:52.0149 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Permanent Address" text area
+2021-11-11 13:01:52.0164 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'permanentAddress']/descendant-or-self::textarea" in ChromeDriver
+2021-11-11 13:01:52.1007 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'permanentAddress']/descendant-or-self::textarea" in ChromeDriver (0.084s) >> Element { Id=e325fe16-3e5a-4fbd-87e8-31ada110e6d4 }
+2021-11-11 13:01:52.1016 TRACE - - - > Clear element { Id=e325fe16-3e5a-4fbd-87e8-31ada110e6d4 }
+2021-11-11 13:01:52.1555 TRACE - - - < Clear element { Id=e325fe16-3e5a-4fbd-87e8-31ada110e6d4 } (0.053s)
+2021-11-11 13:01:52.1562 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Permanent Address" text area (0.141s)
+2021-11-11 13:01:52.1568 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Permanent Address" text area
+2021-11-11 13:01:52.1575 TRACE - - - > Send keys "Street Smith 6, London, UK" to element { Id=e325fe16-3e5a-4fbd-87e8-31ada110e6d4 }
+2021-11-11 13:01:52.3888 TRACE - - - < Send keys "Street Smith 6, London, UK" to element { Id=e325fe16-3e5a-4fbd-87e8-31ada110e6d4 } (0.231s)
+2021-11-11 13:01:52.3895 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Permanent Address" text area (0.232s)
+2021-11-11 13:01:52.3901 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Permanent Address" text area (0.375s)
+2021-11-11 13:01:52.3909  INFO < Set "Street Smith 6, London, UK" to "Permanent Address" text area (0.377s)
+2021-11-11 13:01:52.3915  INFO Scroll down
+2021-11-11 13:01:52.3922 TRACE > Execute script "var height = document.body.scrollHeight;document.body.scrollTop = height;document.documentElement..."
+2021-11-11 13:01:52.4153 TRACE < Execute script "var height = document.body.scrollHeight;document.body.scrollTop = height;document.documentElement..." (0.023s) >> null
+2021-11-11 13:01:52.4161  INFO > Click "Submit" button
+2021-11-11 13:01:52.4175 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Submit" button
+2021-11-11 13:01:52.4232 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'submit']/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver
+2021-11-11 13:01:52.5213 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'submit']/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver (0.098s) >> Element { Id=9979d9c3-dbfe-4168-923f-75f3f27bdc64 }
+2021-11-11 13:01:52.5231 TRACE - - > Click element { Id=9979d9c3-dbfe-4168-923f-75f3f27bdc64 }
+2021-11-11 13:01:52.6820 TRACE - - < Click element { Id=9979d9c3-dbfe-4168-923f-75f3f27bdc64 } (0.158s)
+2021-11-11 13:01:52.6867 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Submit" button (0.267s)
+2021-11-11 13:01:52.6878  INFO < Click "Submit" button (0.271s)
+2021-11-11 13:01:52.6888 TRACE > Execute trigger WaitAttribute { Seconds=5 } on AfterClick against "Submit" button
+2021-11-11 13:01:57.7342 TRACE < Execute trigger WaitAttribute { Seconds=5 } on AfterClick against "Submit" button (5.045s)
+2021-11-11 13:01:57.7360  INFO Go to "Output" page
+2021-11-11 13:01:57.7405  INFO Take screenshot #01
+2021-11-11 13:01:58.2564  INFO > Assert: "Name" element content should equal "Name:John Smith"
+2021-11-11 13:01:58.2576 TRACE - > Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Name" element
+2021-11-11 13:01:58.2591 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'name']/descendant-or-self::*" in ChromeDriver
+2021-11-11 13:01:58.3668 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'name']/descendant-or-self::*" in ChromeDriver (0.107s) >> Element { Id=60da3f8f-681c-4a58-b32d-c801978515a7 }
+2021-11-11 13:01:58.4149 TRACE - < Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Name" element (0.157s) >> "Name:John Smith"
+2021-11-11 13:01:58.4160  INFO < Assert: "Name" element content should equal "Name:John Smith" (0.159s)
+2021-11-11 13:01:58.4170  INFO > Assert: "Email" element content should equal "Email:john.smith@mailinator.com"
+2021-11-11 13:01:58.4182 TRACE - > Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Email" element
+2021-11-11 13:01:58.4201 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'email']/descendant-or-self::*" in ChromeDriver
+2021-11-11 13:01:58.5508 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'email']/descendant-or-self::*" in ChromeDriver (0.130s) >> Element { Id=d6f97557-4b3d-4b93-8d60-8dff8dd63c84 }
+2021-11-11 13:01:58.6569 TRACE - < Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Email" element (0.238s) >> "Email:john.smith@mailinator.com"
+2021-11-11 13:01:58.6578  INFO < Assert: "Email" element content should equal "Email:john.smith@mailinator.com" (0.240s)
+2021-11-11 13:01:58.6772  INFO > Clean up AtataContext
+2021-11-11 13:01:58.6786 TRACE - > Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent
+2021-11-11 13:01:58.6795 TRACE - < Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent (0.000s)
+2021-11-11 13:02:00.4870  INFO < Clean up AtataContext (1.809s)
+2021-11-11 13:02:00.4895  INFO Finished test (17.247s)
+2021-11-11 13:02:00.4904  INFO Pure test execution time: 12.625s
